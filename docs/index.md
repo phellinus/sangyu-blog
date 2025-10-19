@@ -9,10 +9,10 @@ hero:
   actions:
     - theme: brand
       text: vue3的学习笔记
-      link: /font/vue3笔记
+      link: /blogs/font/vue3笔记
     - theme: alt
       text: react的学习笔记
-      link: /font/react笔记
+      link: /blogs/font/react笔记
 
 features:
   - title: Feature A
