@@ -3,16 +3,16 @@
 layout: home
 
 hero:
-  name: "桑榆的个人博客"
-  text: "记录平时的学习笔记以及日常的工作"
-  tagline: My great project tagline
+  name: "桑榆"
+  text: "个人文档库"
+  tagline: "包含学习笔记以及个人实习日常记录"
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: vue3的学习笔记
+      link: /font/vue3笔记
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: react的学习笔记
+      link: /font/react笔记
 
 features:
   - title: Feature A

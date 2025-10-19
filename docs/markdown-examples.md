@@ -1,85 +1,22 @@
-# Markdown Extension Examples
+# 桑榆文档库导航
 
-This page demonstrates some of the built-in markdown extensions provided by VitePress.
+欢迎来到桑榆的知识仓库！这里汇集了日常学习与实践中的记录，希望在复盘与分享的过程中不断沉淀更系统的理解。
 
-## Syntax Highlighting
+## 你能在这里找到什么
+- 前端学习笔记：整理 Vue 3、React 等常用框架的使用心得与最佳实践
+- 后端与工具箱：规划收录 Node、接口设计、工程化等相关内容
+- 实习/项目记录：沉淀实战过程中遇到的问题与解决方案
 
-VitePress provides Syntax Highlighting powered by [Shiki](https://github.com/shikijs/shiki), with additional features like line-highlighting:
+## 快速直达
+- [Vue 3 学习笔记](./font/vue3笔记) — 笔记按模块拆分，方便按需查阅
+- [React 学习笔记](./font/react笔记) — 聚焦项目开发中常见的模式与踩坑
+- 后端文档（筹备中） — 欢迎持续关注后续更新
 
-**Input**
+## 如何使用这些文档
+1. 先根据上方导航定位到需要的主题
+2. 利用页面右侧的目录快速跳转到关注的章节
+3. 遇到尚未覆盖的内容，记录问题并在下次更新中补充
 
-````md
-```js{4}
-export default {
-  data () {
-    return {
-      msg: 'Highlighted!'
-    }
-  }
-}
-```
-````
+## 参与与反馈
+如果你在阅读过程中发现可以优化的地方，或有新的知识想要补充，欢迎直接提交 PR 或在 issue 中留言，一起完善这份文档库。
 
-**Output**
-
-```js{4}
-export default {
-  data () {
-    return {
-      msg: 'Highlighted!'
-    }
-  }
-}
-```
-
-## Custom Containers
-
-**Input**
-
-```md
-::: info
-This is an info box.
-:::
-
-::: tip
-This is a tip.
-:::
-
-::: warning
-This is a warning.
-:::
-
-::: danger
-This is a dangerous warning.
-:::
-
-::: details
-This is a details block.
-:::
-```
-
-**Output**
-
-::: info
-This is an info box.
-:::
-
-::: tip
-This is a tip.
-:::
-
-::: warning
-This is a warning.
-:::
-
-::: danger
-This is a dangerous warning.
-:::
-
-::: details
-This is a details block.
-:::
-
-## More
-
-Check out the documentation for the [full list of markdown extensions](https://vitepress.dev/guide/markdown).
