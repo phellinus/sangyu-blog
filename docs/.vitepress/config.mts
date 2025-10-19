@@ -7,7 +7,6 @@ const blogTheme = getThemeConfig({
     comment: {
         type: 'giscus',
         options: {
-            repo: 'zhuhangfeng/blogs',
             repoId: 'R_kgDOL27o_A',
             category: 'Announcements',
             categoryId: 'DIC_kwDOL27o_M4CfJcg',
@@ -27,7 +26,7 @@ const blogTheme = getThemeConfig({
 export default defineConfig({
     title: "桑榆的个人博客",
     extends: blogTheme,
-    base: '/blogs/',
+    base: '/',
     description: "记录平时的学习笔记以及日常的工作",
     head:[
         // 改变title的图标
@@ -44,7 +43,7 @@ export default defineConfig({
         // https://vitepress.dev/reference/default-theme-config
         nav: [
             { text: '首页', link: '/' },
-            { text: '文档', link: '/markdown-examples' }
+            { text: '文档', link: '/blogs/欢迎页' }
         ],
         // 访问量统计
         visitor: {
