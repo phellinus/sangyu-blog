@@ -7,11 +7,12 @@ const blogTheme = getThemeConfig({
     comment: {
         type: 'giscus',
         options: {
-            repoId: 'R_kgDOL27o_A',
+            repo:'phellinus/sangyu-blog',
+            repoId: 'R_kgDOQFMBYg',
             category: 'Announcements',
-            categoryId: 'DIC_kwDOL27o_M4CfJcg',
+            categoryId: 'DIC_kwDOQFMBYs4CxBCh',
             inputPosition: 'top',
-            mapping:'title',
+            mapping:'pathname',
             strict:'0',
             reactionsEnabled:"1",
             emitMetadata:"0",
