@@ -52,6 +52,41 @@ export default defineConfig({
             /** 统计 id（单独页面的统计会作为前缀使用）*/
             badgeId: 'maomao1996.vitepress-nav-template',
         },
+        search: {
+            provider: 'algolia',
+            options: {
+                appId: '28M3X86BI7',
+                apiKey: '7484995042761280cc200c26ff69f888',
+                indexName: 'sangyu_blog_pages',
+                placeholder: '搜索文档...',
+                translations: {
+                    button: {
+                        buttonText: '搜索',
+                        buttonAriaLabel: '搜索'
+                    },
+                    modal: {
+                        searchBox: {
+                            resetButtonTitle: '清除查询',
+                            cancelButtonText: '取消'
+                        },
+                        startScreen: {
+                            recentSearchesTitle: '最近搜索',
+                            noRecentSearchesText: '暂无历史'
+                        },
+                        errorScreen: {
+                            titleText: '无法获取结果',
+                            helpText: '请检查网络或稍后重试'
+                        },
+                        footer: {
+                            selectText: '选择',
+                            navigateText: '切换',
+                            closeText: '关闭',
+                            searchByText: '搜索提供方'
+                        }
+                    }
+                }
+            }
+        },
         // sidebar: [
         //     {
         //         text: '博客大全',
