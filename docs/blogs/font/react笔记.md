@@ -1,3 +1,10 @@
+---
+description: 介绍 React 中 JSX 语法的基础，包括语法规则、嵌入 JavaScript 表达式、属性指定等。
+sticky: 100
+---
+
+
+
 # react笔记
 
 ## Part 1：JSX 语法入门笔记

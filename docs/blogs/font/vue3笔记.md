@@ -1,3 +1,8 @@
+---
+description: 介绍 Vue3 中 TypeScript 数据类型的基础，包括数字、字符串、布尔、数组、元组、枚举、any 和 void 等类型的使用和区别。
+sticky: 10
+---
+
 # Vue3+ts+vite笔记
 
 ## TypeScript数据类型基础

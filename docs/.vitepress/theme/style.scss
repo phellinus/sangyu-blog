@@ -1,0 +1,22 @@
+.VPHome {
+  // 自定义首页背景图
+  &::before {
+    // 图片来源：https://zhuanlan.zhihu.com/p/54060187
+    background-image: url('https://kaiguadisk.oss-cn-hangzhou.aliyuncs.com/image/sea.jpg');
+    background-size: cover;
+  }
+  // 定义遮罩样式
+  background: radial-gradient(
+                  ellipse,
+                  rgba(var(--bg-gradient-home), 1) 0%,
+                  rgba(var(--bg-gradient-home), 0) 70%
+  );
+}
+
+.blog-item {
+  // 修改颜色
+  background-color: rgb(255 255 255 / 70%) !important;
+}
+.card{
+  background-color: rgb(255 255 255 / 70%) !important;
+}
