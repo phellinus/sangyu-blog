@@ -22,6 +22,14 @@ const blogTheme = getThemeConfig({
         },
         mobileMinify: true
     },
+    oml2d: {
+        mobileDisplay: true,
+        models: [
+            {
+                path: 'https://registry.npmmirror.com/oml2d-models/latest/files/models/Senko_Normals/senko.model3.json'
+            }
+        ]
+    }
 })
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
