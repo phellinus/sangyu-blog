@@ -26,7 +26,7 @@ const blogTheme = getThemeConfig({
         mobileDisplay: true,
         models: [
             {
-                path: 'https://registry.npmmirror.com/oml2d-models/latest/files/models/Senko_Normals/senko.model3.json'
+                path: 'https://cdn.jsdelivr.net/gh/Eikanya/Live2d-model/%E5%B0%91%E5%A5%B3%E5%92%96%E5%95%A1%E6%9E%AA%20girls%20cafe%20gun/girl14/l2d3001.u/l2d3001.u.model3.json'
             }
         ]
     }
