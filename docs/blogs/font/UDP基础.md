@@ -1,6 +1,21 @@
+---
+description: TCP / UDP & 三次握手基础笔记
+sticky: 9
+tags:
+  - 网络
+tag:
+  - 计算机基础
+---
+
+
 # 📘 TCP / UDP & 三次握手基础
 
-> —— 从前端发送请求到后端，发生了什么？
+
+> ✍️ 作者：桑榆  
+> 🕓 更新时间：2025-12-15  
+> 🧠 关键词：tcp, udp, 三次握手
+ 
+—— 从前端发送请求到后端，发生了什么？
 
 ## 一、整体流程先看一眼（宏观视角）
 
@@ -114,7 +129,7 @@ api.example.com → 1.2.3.4
 
 🪜 三次握手的完整过程
 
-<img src="../../../public/three.png" alt="三次握手" />
+<img src="../../public/three.png" alt="三次握手" />
 
 ### 第一次握手（Client → Server）
 
